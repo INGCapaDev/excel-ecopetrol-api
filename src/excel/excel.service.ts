@@ -2,6 +2,7 @@ import { Injectable } from '@nestjs/common';
 import { randomUUID } from 'crypto';
 import * as ExcelJS from 'exceljs';
 
+// cSpell: disable
 @Injectable()
 export class ExcelService {
   private readonly TEMPLATE_EXCEL_PATH: string;
